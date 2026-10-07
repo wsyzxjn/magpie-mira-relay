@@ -1,0 +1,23 @@
+{
+  "name": "magpie-mira-relay",
+  "version": "0.1.0",
+  "description": "Provider plugin for Mirasim-compatible relay deployments: sign in with a base URL and an API key, and see each deployment's quota windows in magpie.",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": ["index.mjs", "README.md"],
+  "keywords": ["opencode", "opencode-plugin", "magpie", "mirasim", "mira", "relay", "provider"],
+  "license": "MIT",
+  "author": "wsyzxjn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsyzxjn/magpie-mira-relay.git"
+  },
+  "homepage": "https://github.com/wsyzxjn/magpie-mira-relay#readme",
+  "bugs": {
+    "url": "https://github.com/wsyzxjn/magpie-mira-relay/issues"
+  },
+  "magpie": {
+    "icon": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1.5' y='9' width='3' height='5.5' rx='1' fill='%233d7a5a'/%3E%3Crect x='6.5' y='5' width='3' height='9.5' rx='1' fill='%233d7a5a'/%3E%3Crect x='11.5' y='1.5' width='3' height='13' rx='1' fill='%233d7a5a'/%3E%3C/svg%3E",
+    "maxConcurrency": 8
+  }
+}
